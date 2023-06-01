@@ -30,7 +30,7 @@ function prevSlide() {
         {images.map(
           (image, index) => current === index && (
             <div key={image} className='img-body'>
-              <img src={image} alt='images' />
+              <img className='slide-in-blurred-top' src={image} alt='images' />
             </div>
           )
         )}
